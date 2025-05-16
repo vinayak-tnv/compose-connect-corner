@@ -230,7 +230,7 @@ Promise.all([fetchUser(1), fetchPosts(), fetchComments()])
       {
         id: '303',
         author: 'Tyler Ross',
-        content: 'I've been exclusively using Flexbox, but this motivated me to finally learn Grid. Thanks!',
+        content: "I've been exclusively using Flexbox, but this motivated me to finally learn Grid. Thanks!",
         date: '2024-05-11',
         likes: 2
       }
