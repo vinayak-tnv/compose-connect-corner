@@ -438,7 +438,7 @@ Accept: application/vnd.example.v1+json
       
       <p>By following these principles, you'll create APIs that developers love to use and that stand the test of time.</p>
     `,
-    excerpt: 'A well-designed API (Application Programming Interface) can make or break a developer experience. Whether you're creating a public API or an internal one, following good design principles is essential.',
+    excerpt: "A well-designed API (Application Programming Interface) can make or break a developer experience. Whether you're creating a public API or an internal one, following good design principles is essential.",
     author: 'Sophia Rodriguez',
     date: '2024-05-01',
     coverImage: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7',
@@ -449,14 +449,14 @@ Accept: application/vnd.example.v1+json
       {
         id: '501',
         author: 'James Wilson',
-        content: 'This is a great primer on API design. I'd add that GraphQL is worth considering as an alternative to REST for complex data requirements.',
+        content: "This is a great primer on API design. I'd add that GraphQL is worth considering as an alternative to REST for complex data requirements.",
         date: '2024-05-02',
         likes: 7
       },
       {
         id: '502',
         author: 'Liam Thompson',
-        content: 'Good points about error handling. I've used APIs that return generic errors, and debugging is a nightmare!',
+        content: "Good points about error handling. I've used APIs that return generic errors, and debugging is a nightmare!",
         date: '2024-05-03',
         likes: 3
       }

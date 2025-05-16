@@ -80,3 +80,12 @@ export const posts: Post[] = [
     ]
   }
 ];
+
+// Export these functions so they can be used in app.js or other files
+export function getPosts() {
+  return posts;
+}
+
+export function getPostById(id: string) {
+  return posts.find(post => post.id === id);
+}
