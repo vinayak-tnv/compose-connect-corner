@@ -7,6 +7,8 @@
     <title>Blogify - Simple Blogging Platform</title>
     <meta name="description" content="Create, edit and share blog posts with Blogify" />
     <meta name="author" content="Lovable" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <meta property="og:title" content="Blogify - Simple Blogging Platform" />
     <meta property="og:description" content="Create, edit and share blog posts with Blogify" />
@@ -19,9 +21,60 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Blogify</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="categories.html">Categories</a>
+        </div>
+        <a href="create.html" class="create-button">Write a Post</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Blogify</h1>
+        <p>Discover stories, insights, and ideas from writers on any topic.</p>
+      </section>
+      
+      <!-- Featured Post -->
+      <section class="featured-post-section">
+        <h2>Featured Post</h2>
+        <div class="featured-post" id="featured-post">
+          <!-- Featured post will be inserted here by JavaScript -->
+        </div>
+      </section>
+      
+      <!-- Category Filter -->
+      <section class="categories-section">
+        <div id="category-filters">
+          <!-- Category filters will be inserted here by JavaScript -->
+        </div>
+      </section>
+      
+      <!-- Latest Posts -->
+      <section class="posts-section">
+        <h2 id="posts-title">Latest Posts</h2>
+        <div id="posts-grid">
+          <!-- Posts will be inserted here by JavaScript -->
+        </div>
+      </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> Blogify. All rights reserved.</p>
+      </div>
+    </footer>
+
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
